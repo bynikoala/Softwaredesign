@@ -1,0 +1,11 @@
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\bin\Debug\netcoreapp2.1\Test.deps.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\bin\Debug\netcoreapp2.1\Test.runtimeconfig.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\bin\Debug\netcoreapp2.1\Test.runtimeconfig.dev.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\bin\Debug\netcoreapp2.1\Test.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\bin\Debug\netcoreapp2.1\Test.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.csprojAssemblyReference.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.AssemblyInfoInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.cs
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\L02\2\obj\Debug\netcoreapp2.1\Test.pdb

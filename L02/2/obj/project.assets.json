@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\L01.csproj",
-      "projectName": "L01",
-      "projectPath": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\L01.csproj",
+      "projectUniqueName": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\2\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\2\\Test.csproj",
       "packagesPath": "C:\\Users\\nikoala\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\obj\\",
+      "outputPath": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L02\\2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
