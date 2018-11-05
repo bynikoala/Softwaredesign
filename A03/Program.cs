@@ -6,13 +6,19 @@ namespace A03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Number: ");
-            int number = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Number Base: ");
-            int nbase = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Target Base: ");
-            int ntarget = Int32.Parse(Console.ReadLine());
-
+            int number,nbase,ntarget;
+            if (args.Length >= 3) {
+                number = Int32.Parse(args[0]);
+                nbase = Int32.Parse(args[1]);
+                ntarget = Int32.Parse(args[2]);
+            } else {
+                Console.WriteLine("Number: ");
+                number = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Number Base: ");
+                nbase = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Target Base: ");
+                ntarget = Int32.Parse(Console.ReadLine());
+            }
             Console.WriteLine(ConvertNumberFromSystemToSystem(number, nbase, ntarget));
         }
 
