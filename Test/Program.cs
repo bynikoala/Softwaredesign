@@ -4,9 +4,8 @@ namespace Test
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(args);
+        static void Main(string[] args) {
+            Console.WriteLine(args[0]);
         }
     }
 }
