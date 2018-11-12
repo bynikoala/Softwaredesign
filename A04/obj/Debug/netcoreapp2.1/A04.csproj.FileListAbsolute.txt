@@ -1,0 +1,11 @@
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\bin\Debug\netcoreapp2.1\A04.deps.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\bin\Debug\netcoreapp2.1\A04.runtimeconfig.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\bin\Debug\netcoreapp2.1\A04.runtimeconfig.dev.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\bin\Debug\netcoreapp2.1\A04.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\bin\Debug\netcoreapp2.1\A04.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.csprojAssemblyReference.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.csproj.CoreCompileInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.AssemblyInfoInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.AssemblyInfo.cs
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A04\obj\Debug\netcoreapp2.1\A04.pdb
