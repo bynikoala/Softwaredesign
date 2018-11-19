@@ -5,7 +5,7 @@ namespace A05 {
         static void Main (String[] args) {
             String sentence = "";
             if (args.Length == 0) {
-                Console.WriteLine("Enter any sentence:");
+                Console.Write("Enter any sentence:\n> ");
                 sentence = Console.ReadLine();
             } else {
                 sentence = args[0];
