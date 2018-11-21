@@ -1,0 +1,11 @@
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.csprojAssemblyReference.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.csproj.CoreCompileInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.AssemblyInfoInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.AssemblyInfo.cs
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\bin\Debug\netcoreapp2.1\A05.deps.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\bin\Debug\netcoreapp2.1\A05.runtimeconfig.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\bin\Debug\netcoreapp2.1\A05.runtimeconfig.dev.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\bin\Debug\netcoreapp2.1\A05.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\bin\Debug\netcoreapp2.1\A05.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A05\obj\Debug\netcoreapp2.1\A05.pdb
