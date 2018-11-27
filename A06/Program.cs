@@ -64,6 +64,7 @@ namespace A06 {
         }
         public static void SolveAQuestion(Quizelement quizelement) {
             Console.Clear();
+            quizelement.Shuffle();
             quizelement.ShowQuestion();
             Console.Write("\nYour choice: ");
             if (quizelement.answers[Int32.Parse(Console.ReadLine()) - 1].isTrue()) {
