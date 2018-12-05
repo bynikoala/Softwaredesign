@@ -10,16 +10,18 @@ namespace A06 {
             this.answers = answers;
         }
         public void Shuffle () {
-            Random rand = new Random();
-            int n = answers.Length;
-            for (int i = 0; i < n; i++) {
-                int r = i + rand.Next (n - i);
-                Answer temp = answers[r];
-                answers[r] = answers[i];
+            Random rand = new Random ();
+            int answerArrayLength = answers.Length;
+
+            for (int i = 0; i < answerArrayLength; i++) {
+                int randomAnswer = i + rand.Next (answerArrayLength - i);
+                Answer temp = answers[randomAnswer];
+                answers[randomAnswer] = answers[i];
                 answers[i] = temp;
             }
         }
         public void ShowQuestion () {
+            Shuffle ();
             Console.Write ($"\n{question}\n\n");
 
             for (int i = 0; i < answers.Length; i++) {

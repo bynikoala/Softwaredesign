@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace A06 {
+namespace A07 {
     class Program {
         static int score = 0;
         static List<Quizelement> quizelements = new List<Quizelement>();
