@@ -9,3 +9,14 @@ C:\Users\nikoala\Documents\GitHub\Softwaredesign\A08\obj\Debug\netcoreapp2.1\A08
 C:\Users\nikoala\Documents\GitHub\Softwaredesign\A08\obj\Debug\netcoreapp2.1\A08.AssemblyInfo.cs
 C:\Users\nikoala\Documents\GitHub\Softwaredesign\A08\obj\Debug\netcoreapp2.1\A08.dll
 C:\Users\nikoala\Documents\GitHub\Softwaredesign\A08\obj\Debug\netcoreapp2.1\A08.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\bin\Debug\netcoreapp2.1\A08.deps.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\bin\Debug\netcoreapp2.1\A08.runtimeconfig.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\bin\Debug\netcoreapp2.1\A08.runtimeconfig.dev.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\bin\Debug\netcoreapp2.1\A08.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\bin\Debug\netcoreapp2.1\A08.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.csprojAssemblyReference.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.csproj.CoreCompileInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.AssemblyInfoInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.AssemblyInfo.cs
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\A09\obj\Debug\netcoreapp2.1\A08.pdb

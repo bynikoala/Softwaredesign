@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace A08
+namespace A09
 {
     public class JsonQuizPool
     {
@@ -29,25 +29,23 @@ namespace A08
                 default:
                 break;
             }
-
-
             return null;
         }
 
         public Quizelement ParseQuizMultiple() {
-            
+            return null;
         }
         public Quizelement ParseQuizSingle() {
-
+            return null;
         }
         public Quizelement ParseQuizFree() {
-
+            return null;
         }
         public Quizelement ParseQuizBinary() {
-
-        }  
+            return null;
+        }
         public Quizelement ParseQuizGuess() {
-            
+            return null;
         }
     }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace A08 {
+namespace A09 {
     public class QuizBinary : Quizelement {
         public new String callToAction = "[W]ahr oder [F]alsch? ";
         private new String question;
