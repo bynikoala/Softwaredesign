@@ -28,7 +28,7 @@ namespace A07 {
             if (eingabe==1) {
                 Erstellen.FragenErstellen(i, score);
             } else if (eingabe==2) {
-                FragenAusgabe(i, score);
+                // FragenAusgabe(i, score);
             } else if (eingabe==3) {
                 Console.WriteLine("Auf wiedersehen");
             }

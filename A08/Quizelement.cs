@@ -2,9 +2,10 @@ using System;
 
 namespace A08 {
     public abstract class Quizelement {
-        public String question;
+        protected String question;
         public String callToAction;
-        public abstract void Show();
-        public abstract Boolean IsCorrect();
+        public abstract String Show();
+        public abstract Boolean IsCorrect(String userInput);
+        public abstract void LoadFromJson();
     }
 }

@@ -13,7 +13,7 @@ namespace A07 {
             if(eingabe == 1) {
                 Erstellen.FragenErstellen(i, score);
             } else if (eingabe == 2) {
-                Quizelement.FragenAusgabe(i, score);
+                //Quizelement.FragenAusgabe(i, score);
             }
         }
     }

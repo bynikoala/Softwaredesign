@@ -1,30 +1,20 @@
 using System;
 
 namespace A08 {
-    public class QuizSinge : Quizelement {
-        private Boolean truth;
-        public new String callToAction = "";
-        public new String question = "";
-        private Answer[] answersArray;
+    public class QuizFree : Quizelement {
+        public new String callToAction = "Please type in your Solution: ";
+        private new String question;
+        private String solution;
 
-        public override void Show() {
-            for (int i=1; i <= answersArray.Length; i++ ) {
-                Console.WriteLine($"{i}) {answersArray[i-1]}");
-            }
+        public override String Show() {
+            return $"{question}";
         }
 
-        public override Boolean IsCorrect() {
-            String choice = Console.ReadLine ();
-            switch(choice) {
-                case "W":
-                    return truth && true;
-                case "F":
-                    return truth && false;
-                default:
-                    Console.Clear();
-                    return false;
-                    
-            }
+        public override Boolean IsCorrect(String userInput) {
+            return userInput.Equals(solution);
+        }
+        public override void LoadFromJson() {
+            
         }
     }
 }
