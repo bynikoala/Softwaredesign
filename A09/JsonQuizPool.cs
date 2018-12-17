@@ -33,19 +33,19 @@ namespace A09
         }
 
         public Quizelement ParseQuizMultiple() {
-            return null;
+            return new QuizMultiple(question, answers);
         }
         public Quizelement ParseQuizSingle() {
-            return null;
+            return new QuizSingle(question, answers);
         }
         public Quizelement ParseQuizFree() {
-            return null;
+            return new QuizFree(question, answers[0].text);
         }
         public Quizelement ParseQuizBinary() {
-            return null;
+            return new QuizBinary(question, answers[0].isTrue());
         }
         public Quizelement ParseQuizGuess() {
-            return null;
+            return new QuizGuess(question, double.Parse(answers[0].text), double.Parse(answers[1].text));
         }
     }
 }

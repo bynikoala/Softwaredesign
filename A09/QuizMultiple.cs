@@ -8,6 +8,11 @@ namespace A09 {
         public new String question;
         private Answer[] answersArray;
 
+        public QuizMultiple(String question, Answer[] answersArray) {
+            this.question = question;
+            this.answersArray = answersArray;
+        }
+
         public override String Show() {
             String textToShow = question + "\n\n";
             for (int i = 1; i <= answersArray.Length; i++) {

@@ -3,18 +3,40 @@
         "type": "QuizMultiple",
         "question": "hello?",
         "answers": [
-            {"right": "no"},
-            {"right": "si"},
-            {"false": "hola"}
+            {"text": "no", "verity": true},
+            {"text": "si", "verity": true},
+            {"text": "hola", "verity": false}
         ]
     },
     {
         "type": "QuizSingle",
         "question": "hello?",
         "answers": [
-            {"right": "hello hello, turn the radio on"},
-            {"false": "hullouw"},
-            {"false": "heey"}
+            {"text": "hello hello, turn the radio on", "verity": true},
+            {"text": "hullouw", "verity": false},
+            {"text": "heey", "verity": false}
+        ]
+    },
+    {
+        "type": "QuizFree",
+        "question": "How old am I",
+        "answers": [
+            {"text": "21"}
+        ]
+    },
+    {
+        "type": "QuizBinary",
+        "question": "Is it true?",
+        "answers": [
+            {"text": "", "verity": false}
+        ]
+    },
+    {
+        "type": "QuizGuess",
+        "question": "How much?",
+        "answers": [
+            {"text": "5"},
+            {"text": "17"}
         ]
     }
 ]

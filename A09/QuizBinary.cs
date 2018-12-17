@@ -6,6 +6,11 @@ namespace A09 {
         private new String question;
         private Boolean truth;
 
+        public QuizBinary(String question, Boolean truth) {
+            this.question = question;
+            this.truth = truth;
+        }
+
 
         public override String Show() {
             return $"{question}";

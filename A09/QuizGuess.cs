@@ -7,6 +7,12 @@ namespace A09 {
         private double tolerance;
         private double rightNumber;
 
+        public QuizGuess(String question, double tolerance, double rightNumber) {
+            this.question = question;
+            this.tolerance = tolerance;
+            this.rightNumber = rightNumber;
+        }
+
         public override String Show() {
             return $"{question}";
         }
