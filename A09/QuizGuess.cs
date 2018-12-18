@@ -2,8 +2,8 @@ using System;
 
 namespace A09 {
     public class QuizGuess : Quizelement {
-        public new String callToAction = "Enter your estimated value: ";
-        public new String question;
+        private new String callToAction = "\nEnter your estimated value: ";
+        private new String question;
         private double tolerance;
         private double rightNumber;
 
@@ -14,7 +14,7 @@ namespace A09 {
         }
 
         public override String Show() {
-            return $"{question}";
+            return question + callToAction;
         }
 
         public override Boolean IsCorrect(String userInput) {

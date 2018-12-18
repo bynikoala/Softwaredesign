@@ -2,7 +2,7 @@ using System;
 
 namespace A09 {
     public class QuizBinary : Quizelement {
-        public new String callToAction = "[W]ahr oder [F]alsch? ";
+        private new String callToAction = "\n[W]ahr oder [F]alsch? ";
         private new String question;
         private Boolean truth;
 
@@ -13,11 +13,11 @@ namespace A09 {
 
 
         public override String Show() {
-            return $"{question}";
+            return question + callToAction;
         }
 
         public override Boolean IsCorrect(String userInput) {
-            switch(userInput) {
+            switch(userInput.ToUpper()) {
                 case "W":
                     return truth == true;
                 case "F":

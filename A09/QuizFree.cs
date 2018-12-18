@@ -2,7 +2,7 @@ using System;
 
 namespace A09 {
     public class QuizFree : Quizelement {
-        public new String callToAction = "Please type in your Solution: ";
+        private new String callToAction = "\nPlease type in your Solution: ";
         private new String question;
         private String solution;
         public QuizFree(String question, String solution) {
@@ -11,7 +11,7 @@ namespace A09 {
         }
 
         public override String Show() {
-            return $"{question}";
+            return question + callToAction;
         }
 
         public override Boolean IsCorrect(String userInput) {

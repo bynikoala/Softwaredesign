@@ -55,8 +55,7 @@ namespace A09 {
         }
         public static void SolveAQuestion(Quizelement quizelement) {
             Console.Clear();
-            quizelement.Show();
-            Console.Write($"\n{quizelement.callToAction}");
+            Console.Write(quizelement.Show());
             if (quizelement.IsCorrect(Console.ReadLine())) {
                 score += 10;
                 Console.Write("\nRight Answer! 10 Points to Gryffindor!");

@@ -5,9 +5,9 @@ namespace A09
 {
     public class JsonQuizPool
     {
-        public String type {get; set;}
-        public String question {get; set;}
-        public Answer[] answers {get; set;}
+        public String type;
+        public String question;
+        public Answer[] answers;
 
         public Quizelement ToQuizelement() {
             switch(type) {
