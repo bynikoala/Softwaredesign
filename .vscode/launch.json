@@ -6,25 +6,25 @@
    "configurations": [
 
        {
-           "name": "Person (console)",
+           "name": "A10 (console)",
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "build",
-           "program": "${workspaceFolder}/L03/Person/bin/Debug/netcoreapp2.1/Person.dll",
+           "program": "${workspaceFolder}/A10/bin/Debug/netcoreapp2.1/A10.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/L03/Person",
+           "cwd": "${workspaceFolder}/A10",
            "stopAtEntry": false,
            "console": "internalConsole"
        },
         {
-            "name": "A08 (Terminal)",
+            "name": "A10 (Terminal)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/A08/bin/Debug/netcoreapp2.1/A08.dll",
+            "program": "${workspaceFolder}/A10/bin/Debug/netcoreapp2.1/A10.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/A08",
+            "cwd": "${workspaceFolder}/A10",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "integratedTerminal",
             "stopAtEntry": false,
