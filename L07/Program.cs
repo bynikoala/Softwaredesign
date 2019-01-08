@@ -7,7 +7,9 @@ namespace L07
         static void Main(string[] args)
         {
             Calculator hello = new Calculator();
+            CalculatorWithoutObserver hello2 = new CalculatorWithoutObserver();
             hello.CalculateSomething();
+            hello2.CalculateSomething();
         }
     }
 }
