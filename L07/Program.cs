@@ -10,6 +10,7 @@ namespace L07
             CalculatorWithoutObserver hello2 = new CalculatorWithoutObserver();
             hello.CalculateSomething();
             hello2.CalculateSomething();
+            Calcstatic.CalculateSomething();
         }
     }
 }
