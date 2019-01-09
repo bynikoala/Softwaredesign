@@ -4,7 +4,7 @@ namespace L07 {
     delegate void ReportProgressMethod(int progress);
     class Calculator {
         public Calculator() {
-            ProgressMethod += WriteProgressToConsole;
+            ProgressMethod += delegate(int progress) {Console.Write(progress + " %");};
             ProgressMethod += WritePointsToConsole;
         }
         public event ReportProgressMethod ProgressMethod;
@@ -17,9 +17,6 @@ namespace L07 {
                     ProgressMethod(i / 100000);
                 }
             }
-        }
-        public void WriteProgressToConsole(int progress) {
-            Console.Write(progress + " %");
         }
         public void WritePointsToConsole(int progress) {
             Console.Write("...\n");
