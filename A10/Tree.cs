@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 namespace A10 {
     class Tree<T> {
-        public delegate void function(Tree<T> node);
+        public delegate void Func(Tree<T> node);
         public T treeVar;
         public List<Tree<T>> children = new List<Tree<T>>();
         public Tree<T> parent;
+
         public override string ToString() {
             if (typeof(T).IsValueType || typeof(T) == typeof(String)) {
                 return this.treeVar.ToString();
@@ -44,7 +45,7 @@ namespace A10 {
             Console.Write("#");
             Console.WriteLine(treeVar);
         }
-        public void ForEach(function func) {
+        public void ForEach(Func func) {
             func(this);
             foreach (Tree<T> child in children) {
                 child.ForEach(func);
