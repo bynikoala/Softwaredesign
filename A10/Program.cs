@@ -19,13 +19,13 @@ namespace A10 {
             child2.AppendChild(grand21);
             child1.RemoveChild(grand12);
 
-            root.PrintTree();
-            Console.WriteLine();
-            grand12.PrintAncestors();
+            // root.PrintTree();
+            // Console.WriteLine();
+            // grand12.PrintAncestors();
 
             root.ForEach(Func);
         }
-        public static void Func(String node) {
+        public static void Func(Tree<string> node) {
             Console.Write(node + " | ");
         }
     }
