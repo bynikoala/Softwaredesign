@@ -5,7 +5,7 @@ namespace L07 {
     static class Calcstatic {
         public static event ReportProgressMethods ProgressMethod;
         public static void CalculateSomething() {
-            ProgressMethod += WriteProgressToConsole;
+            ProgressMethod += delegate(int progress) {Console.Write(progress + " %");};
             ProgressMethod += WritePointsToConsole;
             long a = 0;
             for (int i = 0; i <= 10000000; i++) {
@@ -15,9 +15,6 @@ namespace L07 {
                     ProgressMethod(i / 100000);
                 }
             }
-        }
-        public static void WriteProgressToConsole(int progress) {
-            Console.Write(progress + " %");
         }
         public static void WritePointsToConsole(int progress) {
             Console.Write("...\n");
