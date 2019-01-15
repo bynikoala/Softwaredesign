@@ -37,10 +37,11 @@ namespace A10 {
             Console.Write("#");
             Console.WriteLine(treeVar);
         }
-        public void ForEach(Action<Tree<T>> function) {
-            function(this);
-            for(int i = 0; i < this.children.Count; i++) {
-                this.children[i].ForEach(function);
+        public void ForEach(Action<string> func) {
+            for (int i = 0; i < children.Count; i++) {
+                func(children[i].ToString());
+                children[i].ForEach(Program.Func);
+
             }
         }
     }
