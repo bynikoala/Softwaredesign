@@ -1,8 +1,8 @@
 using System;
 namespace L07 {
 
-    delegate void ReportProgressMethod(int progress);
-    class Calculator {
+    public delegate void ReportProgressMethod(int progress);
+    public class Calculator {
         public Calculator() {
             ProgressMethod += delegate(int progress) {Console.Write(progress + " %");};
             ProgressMethod += WritePointsToConsole;
