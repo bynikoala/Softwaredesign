@@ -1,0 +1,53 @@
+[
+    {
+        "name": "MIB",
+        "semester": [
+            {
+                "semester": 1,
+                "students": "40"
+            },
+            {
+                "semester": 2,
+                "students": "20"
+            },
+            {
+                "semester": 3,
+                "students": "10"
+            }
+        ]
+    },
+    {
+        "name": "OMB",
+        "semester": [
+            {
+                "semester": 1,
+                "students": "40"
+            },
+            {
+                "semester": 2,
+                "students": "20"
+            },
+            {
+                "semester": 3,
+                "students": "10"
+            }
+        ]
+    },
+    {
+        "name": "MKB",
+        "semester": [
+            {
+                "semester": 1,
+                "students": "40"
+            },
+            {
+                "semester": 2,
+                "students": "20"
+            },
+            {
+                "semester": 3,
+                "students": "10"
+            }
+        ]
+    }
+]

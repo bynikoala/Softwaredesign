@@ -687,22 +687,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\Person.csproj",
+      "projectUniqueName": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\Person.csproj",
       "projectName": "Person",
-      "projectPath": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\Person.csproj",
+      "projectPath": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\Person.csproj",
       "packagesPath": "C:\\Users\\nikoala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\obj\\",
+      "outputPath": "c:\\Users\\nikoala\\Documents\\GitHub\\Softwaredesign\\L03\\Person\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nikoala\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nikoala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

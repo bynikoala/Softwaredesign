@@ -6,13 +6,13 @@
    "configurations": [
 
        {
-           "name": "A10 (console)",
+           "name": "Abschluss",
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "build",
-           "program": "${workspaceFolder}/A10/bin/Debug/netcoreapp2.1/A10.dll",
+           "program": "${workspaceFolder}/Abschlussaufgabe/Stundenplangenerator/bin/Debug/netcoreapp2.1/Stundenplangenerator.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/A10",
+           "cwd": "${workspaceFolder}/Abschlussaufgabe/Stundenplangenerator",
            "stopAtEntry": false,
            "console": "internalConsole"
        },
