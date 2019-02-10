@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Del'Oro-Friedl",
+        "course": [
+            {
+                "subject": "Softwaredesign",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "subject": "test",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "subject": "",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "absent": [
+            {
+                "day": 0,
+                "block": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "day": 1,
+                "block": [
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Schneider",
+        "course": [
+            {
+                "subject": "MINT-Grundlagen",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "subject": "Mathematik und Simulation",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "subject": "",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "absent": []
+    },
+    {
+        "name": "Herbstreit",
+        "course": [
+            {
+                "subject": "Allgemeine Betriebswirtschaftslehre",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "absent": []
+    },
+    {
+        "name": "Eisenbiegler",
+        "course": [
+            {
+                "subject": "Programmierung",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "absent": []
+    }
+]

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/A08/A08.csproj"
+                "${workspaceFolder}/Abschlussaufgabe/TimeTableGenerator/TimeTableGenerator.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

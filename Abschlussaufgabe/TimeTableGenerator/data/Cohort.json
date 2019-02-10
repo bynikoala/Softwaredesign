@@ -1,0 +1,191 @@
+[
+    {
+        "name": "MIB",
+        "semester": [
+            {
+                "term": 1,
+                "students": 40,
+                "lectures": [
+                    "MINT-Grundlagen",
+                    "Allgemeine Betriebswirtschaftslehre",
+                    "Programmierung",
+                    "Grundlagen Mediengestaltung",
+                    "Medientechnik"
+                ]
+            },
+            {
+                "term": 2,
+                "students": 32,
+                "lectures": [
+                    "Mathematik und Simulation",
+                    "Medienwirtschaft",
+                    "Grundlagen interaktiver Systeme",
+                    "User Experience Design",
+                    "Computergrafik"
+                ]
+            },
+            {
+                "term": 3,
+                "students": 26,
+                "lectures": []
+            },
+            {
+                "term": 4,
+                "students": 21,
+                "lectures": [
+                    "Projektstudium",
+                    "Kommunikationssysteme",
+                    "Softwaredesign",
+                    "Grafische Datenverarbeitung"
+                ]
+            },
+            {
+                "term": 5,
+                "students": 17,
+                "lectures": [
+                    "Projektstudium",
+                    "Verteilte Anwendungen",
+                    "Digitale Medienproduktion",
+                    "WPM1"
+                ]
+            },
+            {
+                "term": 6,
+                "students": 15,
+                "lectures": [
+                    "IT und Medien-Produktmanagement",
+                    "Fremdsprachenmodul",
+                    "WPM2",
+                    "WPM3",
+                    "WPM4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OMB",
+        "semester": [
+            {
+                "term": 1,
+                "students": 40,
+                "lectures": [
+                    "MINT-Grundlagen",
+                    "Allgemeine Betriebswirtschaftslehre",
+                    "Programmierung",
+                    "Grundlagen Mediengestaltung",
+                    "Medientechnik"
+                ]
+            },
+            {
+                "term": 2,
+                "students": 32,
+                "lectures": [
+                    "Modellierung und Computergrafik",
+                    "Medienwirtschaft",
+                    "Grundlagen interaktiver Systeme",
+                    "User Experience Design",
+                    "AV-Produktion"
+                ]
+            },
+            {
+                "term": 3,
+                "students": 26,
+                "lectures": []
+            },
+            {
+                "term": 4,
+                "students": 21,
+                "lectures": [
+                    "Projektstudium",
+                    "Webtechnologien",
+                    "Responsive Web Design",
+                    "Medienmanagement und E-Business"
+                ]
+            },
+            {
+                "term": 5,
+                "students": 17,
+                "lectures": [
+                    "Projektstudium",
+                    "Streaming-Anwendungen",
+                    "Interface Design",
+                    "WPM1"
+                ]
+            },
+            {
+                "term": 6,
+                "students": 15,
+                "lectures": [
+                    "Online-Prdukmanagement und Online-Marketing",
+                    "Fremdsprachenmodul",
+                    "WPM2",
+                    "WPM3",
+                    "WPM4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MKB",
+        "semester": [
+            {
+                "term": 1,
+                "students": 40,
+                "lectures": [
+                    "Grundlagen Medienkonzeption",
+                    "Allgemeine Betriebswirtschaftslehre",
+                    "Entwicklung interaktiver Anwendungen 1",
+                    "Grundlagen Mediengestaltung",
+                    "Medientechnik"
+                ]
+            },
+            {
+                "term": 2,
+                "students": 32,
+                "lectures": [
+                    "Computergrafik / Mathematik",
+                    "Medienwirtschaft",
+                    "Entwicklung interaktiver Anwendungen 2",
+                    "User Experience Design",
+                    "AV-Produktion"
+                ]
+            },
+            {
+                "term": 3,
+                "students": 26,
+                "lectures": []
+            },
+            {
+                "term": 4,
+                "students": 21,
+                "lectures": [
+                    "Projektstudium",
+                    "Kreativkonzeption",
+                    "Textkonzeption",
+                    "E-Learning und Online-Learning"
+                ]
+            },
+            {
+                "term": 5,
+                "students": 17,
+                "lectures": [
+                    "Projektstudium",
+                    "Interface Design",
+                    "Marketingkonzeption",
+                    "WPM1"
+                ]
+            },
+            {
+                "term": 6,
+                "students": 15,
+                "lectures": [
+                    "Medientheorie",
+                    "Fremdsprachenmodul",
+                    "WPM2",
+                    "WPM3",
+                    "WPM4"
+                ]
+            }
+        ]
+    }
+]

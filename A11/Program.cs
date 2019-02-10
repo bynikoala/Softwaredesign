@@ -26,7 +26,6 @@ namespace A11 {
             Console.WriteLine();
             Console.WriteLine();
 
-            root.ForEach(Func);
         }
         static void Func(String node) {
             Console.Write(node + " | ");

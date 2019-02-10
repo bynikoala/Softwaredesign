@@ -1,0 +1,300 @@
+[
+    {
+        "name": "Aula",
+        "capacity": 120,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard"
+        ]
+    },
+    {
+        "name": "L.01",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.02",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.03",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.04",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.11",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.12",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.13",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.14",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.21",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.22",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.23",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "L.24",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.01",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.02",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.03",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.04",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.11",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.12",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.13",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.14",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.21",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.22",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.23",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    },
+    {
+        "name": "I.24",
+        "capacity": 40,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Computers",
+            "Cams"
+        ]
+    }
+]

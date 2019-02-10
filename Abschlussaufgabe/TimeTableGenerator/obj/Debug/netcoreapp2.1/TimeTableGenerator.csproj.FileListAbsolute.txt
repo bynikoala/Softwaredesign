@@ -1,0 +1,11 @@
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\bin\Debug\netcoreapp2.1\TimeTableGenerator.deps.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\bin\Debug\netcoreapp2.1\TimeTableGenerator.runtimeconfig.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\bin\Debug\netcoreapp2.1\TimeTableGenerator.runtimeconfig.dev.json
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\bin\Debug\netcoreapp2.1\TimeTableGenerator.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\bin\Debug\netcoreapp2.1\TimeTableGenerator.pdb
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.csprojAssemblyReference.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.csproj.CoreCompileInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.AssemblyInfoInputs.cache
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.AssemblyInfo.cs
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.dll
+C:\Users\nikoala\Documents\GitHub\Softwaredesign\Abschlussaufgabe\TimeTableGenerator\obj\Debug\netcoreapp2.1\TimeTableGenerator.pdb

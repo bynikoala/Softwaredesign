@@ -38,9 +38,5 @@ namespace A11 {
             Console.Write("#");
             Console.WriteLine(treeVar);
         }
-
-        public void ForEach(Method method) {
-            method(treeVar);
-        }
     }
 }
