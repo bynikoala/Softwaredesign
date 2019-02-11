@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
@@ -13,8 +14,10 @@ namespace TimeTableGenerator {
         static void Main(string[] args) {
             ParseJsonDataAndWriteToLists();
 
-            CreateTimeTable();
-
+            if (!Task.Run(new Action(CreateTimeTable)).Wait(10000)) {
+                WriteToConsole("Timeout: Calculating took to long\n");
+                return;
+            }
             GetAndFollowUserInstruction();
         }
 
@@ -26,6 +29,7 @@ namespace TimeTableGenerator {
         private static void CreateTimeTable() {
             timeTable = new TimeTable(roomList, majorList, lecturerList);
             timeTable.Fill();
+
         }
         private static void GetAndFollowUserInstruction() {
             WriteToConsole(@"Type F to show the whole Timetable,

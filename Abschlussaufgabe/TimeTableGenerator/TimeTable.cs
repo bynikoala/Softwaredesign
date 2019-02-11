@@ -95,15 +95,15 @@ namespace TimeTableGenerator {
             }
             return null;
         }
-        private void SaveCourseIntoNextAvailableBlock(Major cohort, Course course, Lecturer lecturer, Cohort semester) {
+        private void SaveCourseIntoNextAvailableBlock(Major major, Course course, Lecturer lecturer, Cohort cohort) {
             foreach (Block block in completeTable) {
                 // Check if Block is used
                 try {
-                    if (block.courseName == null && block.room.capacity >= semester.students && lecturer.availableAt(block.day, block.number) && hasEquipment(block.room, course)) {
-                        block.major = cohort;
+                    if (block.courseName == null && block.room.capacity >= cohort.students && lecturer.availableAt(block.day, block.number) && hasEquipment(block.room, course)) {
+                        block.major = major;
                         block.courseName = course.name;
                         block.lecturer = lecturer;
-                        block.cohort = semester;
+                        block.cohort = cohort;
                         lecturer.isAbsentAt(block.day, block.number);
                         return;
                     }
@@ -131,8 +131,7 @@ namespace TimeTableGenerator {
             if (cohort == null)
                 return $"Cohort {userInput} not found";
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append($"Timetable for {userInput}:\n");
+            StringBuilder sb = new StringBuilder($"Timetable for {userInput}:\n");
             foreach (Block block in completeTable) {
                 if (block != null && block.lecturer != null && block.cohort == cohort)
                     sb.Append($"{Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} in {block.room.name} with {block.lecturer.name}\n");
@@ -147,7 +146,7 @@ namespace TimeTableGenerator {
             StringBuilder sb = new StringBuilder();
             sb.Append($"Timetable for {lecturer.name}:\n");
             foreach (Block block in completeTable) {
-                if (block != null && block.lecturer != null && block.lecturer == lecturer)
+                if (block.lecturer == lecturer)
                     sb.Append($"{block.major.name}{block.cohort.term} {Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} in {block.room.name}\n");
             }
             foreach(OptionalCourse optionalCourse in lecturer.optionalCoursesOffered) {
@@ -163,7 +162,7 @@ namespace TimeTableGenerator {
             StringBuilder sb = new StringBuilder();
             sb.Append($"Timetable for {room.name}:\n");
             foreach (Block block in completeTable) {
-                if (block != null && block.lecturer != null && block.room == room)
+                if (block.lecturer != null && block.room == room)
                     sb.Append($"{block.major.name}{block.cohort.term} {Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} with {block.lecturer.name}\n");
             }
             return sb.ToString();
