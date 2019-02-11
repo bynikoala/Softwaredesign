@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 
 namespace TimeTableGenerator {
-    public class Cohort {
+    public class Major {
         public string name { get; set; }
-        public List<Semester> semester { get; set; }
+        public List<Cohort> semester { get; set; }
     }
-    public class Semester {
+    public class Cohort {
         public int term { get; set; }
         public int students { get; set; }
         public List<String> lectures { get; set; }

@@ -2,16 +2,16 @@ using System;
 
 namespace TimeTableGenerator {
     internal class Block {
-        public Cohort cohort;
-        public string lectureName;
+        public Major major;
+        public string courseName;
         public Lecturer lecturer;
         public Room room;
-        public Semester semester;
+        public Cohort cohort;
         public int number;
         public int day;
-        public Block(Cohort cohort, string lectureName, Lecturer lecturer, Room room, Semester semester, int blockNumber, int day) {
-            this.cohort = cohort;
-            this.lectureName = lectureName;
+        public Block(Major cohort, string lectureName, Lecturer lecturer, Room room, Cohort semester, int blockNumber, int day) {
+            this.major = cohort;
+            this.courseName = lectureName;
             this.lecturer = lecturer;
             this.room = room;
             this.number = blockNumber;

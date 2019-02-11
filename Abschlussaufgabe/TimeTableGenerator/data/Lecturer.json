@@ -1,30 +1,54 @@
 [
     {
         "name": "Del'Oro-Friedl",
-        "course": [
+        "courses": [
             {
-                "subject": "Softwaredesign",
+                "name": "Softwaredesign",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             },
             {
-                "subject": "test",
+                "name": "test",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             },
             {
-                "subject": "",
+                "name": "",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             }
         ],
-        "absent": [
+        "optionalCoursesOffered": [
+            {
+                "name": "GameDesign",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard"
+                ],
+                "roomName": "L.22",
+                "day": 3,
+                "blockNumber": 4
+            },
+            {
+                "name": "GameDesign",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard"
+                ],
+                "roomName": "L.22",
+                "day": 3,
+                "blockNumber": 4
+            }
+        ],
+        "absents": [
             {
                 "day": 0,
                 "block": [
@@ -42,55 +66,90 @@
     },
     {
         "name": "Schneider",
-        "course": [
+        "courses": [
             {
-                "subject": "MINT-Grundlagen",
+                "name": "MINT-Grundlagen",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             },
             {
-                "subject": "Mathematik und Simulation",
+                "name": "Mathematik und Simulation",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             },
             {
-                "subject": "",
+                "name": "",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             }
         ],
-        "absent": []
+        "optionalCoursesOffered": [],
+        "absents": []
     },
     {
         "name": "Herbstreit",
-        "course": [
+        "courses": [
             {
-                "subject": "Allgemeine Betriebswirtschaftslehre",
+                "name": "Allgemeine Betriebswirtschaftslehre",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             }
         ],
-        "absent": []
+        "optionalCoursesOffered": [],
+        "absents": []
     },
     {
         "name": "Eisenbiegler",
-        "course": [
+        "courses": [
             {
-                "subject": "Programmierung",
+                "name": "Programmierung",
                 "equipment": [
                     "Beamer",
                     "Chalkboard"
                 ]
             }
         ],
-        "absent": []
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Fries",
+        "courses": [
+            {
+                "name": "Grundlagen Mediengestaltung",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Hottong",
+        "courses": [
+            {
+                "name": "Medientechnik",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard",
+                    "Cams",
+                    "Sound"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
     }
 ]

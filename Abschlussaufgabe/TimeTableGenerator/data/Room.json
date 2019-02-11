@@ -10,6 +10,17 @@
         ]
     },
     {
+        "name": "O.01",
+        "capacity": 20,
+        "equipment": [
+            "Beamer",
+            "Sound",
+            "Whiteboard",
+            "Chalkboard",
+            "Cams"
+        ]
+    },
+    {
         "name": "L.01",
         "capacity": 40,
         "equipment": [
