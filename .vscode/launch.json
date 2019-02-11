@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/Abschlussaufgabe/TimeTableGenerator/bin/Debug/netcoreapp2.1/TimeTableGenerator.dll",
-            "args": [],
+            "args": ["F"],
             "cwd": "${workspaceFolder}/Abschlussaufgabe/TimeTableGenerator",
             "stopAtEntry": false,
             "console": "integratedTerminal"

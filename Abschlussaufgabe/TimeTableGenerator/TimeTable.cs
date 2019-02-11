@@ -115,7 +115,7 @@ namespace TimeTableGenerator {
             }
         }
         private bool hasEquipment(Room room, Course course) {
-            return !course.equipment.Except(room.equipment).Any();
+            return !course.equipment.Except(room.equipment).Any() || (course.equipment.Except(room.equipment) == null);
         }
 
         public string GetCompleteTable() {

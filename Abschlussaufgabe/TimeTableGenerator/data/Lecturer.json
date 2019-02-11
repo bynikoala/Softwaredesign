@@ -22,6 +22,13 @@
                     "Beamer",
                     "Chalkboard"
                 ]
+            },
+            {
+                "name": "Entwicklung interaktiver Anwendungen 2",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
             }
         ],
         "optionalCoursesOffered": [
@@ -94,8 +101,7 @@
                 "name": "Etwas Mathematisches",
                 "equipment": [
                     "Beamer",
-                    "Chalkboard",
-                    "Whiteboard"
+                    "Chalkboard"
                 ],
                 "roomName": "L.23",
                 "day": 2,
@@ -127,20 +133,180 @@
                     "Beamer",
                     "Chalkboard"
                 ]
+            },
+            {
+                "name": "Verteilte Anwendungen",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
             }
         ],
         "optionalCoursesOffered": [],
         "absents": []
     },
     {
-        "name": "Prof. Fries",
+        "name": "Prof. Zydorek",
+        "courses": [
+            {
+                "name": "Medienwirtschaft",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "name": "Medienmanagement und E-Business",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Müller",
+        "courses": [
+            {
+                "name": "Computergrafik",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "name": "Modellierung und Computergrafik",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Taube",
+        "courses": [
+            {
+                "name": "Grundlagen Interaktiver Systeme",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Waldowski",
+        "courses": [
+            {
+                "name": "Grafische Datenverarbeitung",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Krach",
+        "courses": [
+            {
+                "name": "User Experience Design",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            },
+            {
+                "name": "Responsive Web Design",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Frieß",
         "courses": [
             {
                 "name": "Grundlagen Mediengestaltung",
                 "equipment": [
                     "Beamer",
-                    "Chalkboard",
-                    "Whiteboard"
+                    "Chalkboard"
+                ]
+            },{
+                "name": "Kreativkonzeption",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "B.Sc. Timmalog",
+        "courses": [
+            {
+                "name": "Entwicklung interaktiver Anwendungen 1",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Aichele",
+        "courses": [
+            {
+                "name": "AV-Produktion",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Engenhart",
+        "courses": [
+            {
+                "name": "Interface Design",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
+                ]
+            }
+        ],
+        "optionalCoursesOffered": [],
+        "absents": []
+    },
+    {
+        "name": "Prof. Pietsch",
+        "courses": [
+            {
+                "name": "Marketingkonzeption",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard"
                 ]
             }
         ],
@@ -157,6 +323,24 @@
                     "Chalkboard",
                     "Whiteboard",
                     "Cams",
+                    "Sound"
+                ]
+            },
+            {
+                "name": "Digitale Medienproduktion",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard",
+                    "Cams",
+                    "Sound"
+                ]
+            },
+            {
+                "name": "Streaming-Anwendungen",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
                     "Sound"
                 ]
             }

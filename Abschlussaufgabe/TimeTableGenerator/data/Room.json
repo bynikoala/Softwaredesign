@@ -16,20 +16,15 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
         "name": "L.01",
         "capacity": 40,
         "equipment": [
-            "Beamer",
-            "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -40,8 +35,7 @@
             "Sound",
             "Whiteboard",
             "Chalkboard",
-            "Computers",
-            "Cams"
+            "Computers"
         ]
     },
     {
@@ -51,9 +45,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -63,9 +55,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -75,9 +65,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -87,9 +75,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -99,9 +85,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -111,9 +95,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -123,9 +105,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -135,9 +115,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -147,9 +125,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -159,9 +135,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -172,8 +146,7 @@
             "Sound",
             "Whiteboard",
             "Chalkboard",
-            "Computers",
-            "Cams"
+            "Computers"
         ]
     },
     {
@@ -184,8 +157,7 @@
             "Sound",
             "Whiteboard",
             "Chalkboard",
-            "Computers",
-            "Cams"
+            "Computers"
         ]
     },
     {
@@ -195,9 +167,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -207,21 +177,17 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
         "name": "I.11",
-        "capacity": 40,
+        "capacity": 20,
         "equipment": [
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -229,11 +195,8 @@
         "capacity": 40,
         "equipment": [
             "Beamer",
-            "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -243,21 +206,17 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
         "name": "I.14",
-        "capacity": 40,
+        "capacity": 20,
         "equipment": [
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -267,9 +226,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -279,21 +236,17 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
         "name": "I.23",
-        "capacity": 40,
+        "capacity": 20,
         "equipment": [
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     },
     {
@@ -303,9 +256,7 @@
             "Beamer",
             "Sound",
             "Whiteboard",
-            "Chalkboard",
-            "Computers",
-            "Cams"
+            "Chalkboard"
         ]
     }
 ]

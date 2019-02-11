@@ -15,7 +15,7 @@ namespace TimeTableGenerator {
 
             ParseJsonDataAndWriteToLists();
 
-            if (!Task.Run(new Action(CreateTimeTable)).Wait(10000)) {
+            if (!Task.Run(new Action(CreateTimeTable)).Wait(1000000000)) {
                 WriteToConsole("Timeout: Calculating took to long\n");
                 return;
             }
@@ -36,7 +36,7 @@ namespace TimeTableGenerator {
             string userInput;
 
             if (instructions == null) {
-                
+
                 WriteToConsole(@"Type F to show the whole Timetable,
 Type C to show the Timetable for a Cohort,
 Type L to show the Timetable for a Lecturer,

@@ -11,7 +11,7 @@ namespace TimeTableGenerator {
         public Boolean availableAt(int day, int block) {
             foreach (AbsentPoint absentPoint in absents) {
                 foreach (int absentBlock in absentPoint.block) {
-                    if (absentPoint.day == day && absentBlock == block)
+                    if (absentBlock == block)
                         return false;
                 }
             }
