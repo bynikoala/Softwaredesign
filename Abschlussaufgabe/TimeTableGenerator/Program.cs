@@ -35,7 +35,7 @@ namespace TimeTableGenerator {
         private static void GetAndFollowUserInstruction(string[] instructions) {
             string userInput;
 
-            if (instructions == null) {
+            if (instructions.Length == 0) {
 
                 WriteToConsole(@"Type F to show the whole Timetable,
 Type C to show the Timetable for a Cohort,
