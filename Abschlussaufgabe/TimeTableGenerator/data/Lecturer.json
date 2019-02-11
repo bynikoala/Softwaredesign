@@ -1,6 +1,6 @@
 [
     {
-        "name": "Dell'Oro-Friedl",
+        "name": "Prof. Dell'Oro-Friedl",
         "courses": [
             {
                 "name": "Softwaredesign",
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name": "Schneider",
+        "name": "Prof. Schneider",
         "courses": [
             {
                 "name": "MINT-Grundlagen",
@@ -89,7 +89,19 @@
                 ]
             }
         ],
-        "optionalCoursesOffered": [],
+        "optionalCoursesOffered": [
+            {
+                "name": "Etwas Mathematisches",
+                "equipment": [
+                    "Beamer",
+                    "Chalkboard",
+                    "Whiteboard"
+                ],
+                "roomName": "L.23",
+                "day": 2,
+                "blockNumber": 4
+            }
+        ],
         "absents": []
     },
     {
@@ -107,7 +119,7 @@
         "absents": []
     },
     {
-        "name": "Eisenbiegler",
+        "name": "Prof. Eisenbiegler",
         "courses": [
             {
                 "name": "Programmierung",
@@ -121,7 +133,7 @@
         "absents": []
     },
     {
-        "name": "Fries",
+        "name": "Prof. Fries",
         "courses": [
             {
                 "name": "Grundlagen Mediengestaltung",
@@ -136,7 +148,7 @@
         "absents": []
     },
     {
-        "name": "Hottong",
+        "name": "Prof. Hottong",
         "courses": [
             {
                 "name": "Medientechnik",

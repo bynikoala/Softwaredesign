@@ -12,13 +12,14 @@ namespace TimeTableGenerator {
         public static List<Room> roomList = new List<Room>();
         public static List<Major> majorList = new List<Major>();
         static void Main(string[] args) {
+
             ParseJsonDataAndWriteToLists();
 
             if (!Task.Run(new Action(CreateTimeTable)).Wait(10000)) {
                 WriteToConsole("Timeout: Calculating took to long\n");
                 return;
             }
-            GetAndFollowUserInstruction();
+            GetAndFollowUserInstruction(args);
         }
 
         private static void ParseJsonDataAndWriteToLists() {
@@ -31,8 +32,12 @@ namespace TimeTableGenerator {
             timeTable.Fill();
 
         }
-        private static void GetAndFollowUserInstruction() {
-            WriteToConsole(@"Type F to show the whole Timetable,
+        private static void GetAndFollowUserInstruction(string[] instructions) {
+            string userInput;
+
+            if (instructions == null) {
+                
+                WriteToConsole(@"Type F to show the whole Timetable,
 Type C to show the Timetable for a Cohort,
 Type L to show the Timetable for a Lecturer,
 Type R to show the Timetable for a Room,
@@ -40,7 +45,10 @@ Type O to show optional Courses for a Cohort,
 Type any other key to leave the program.
 
 > ");
-            string userInput = Console.ReadLine();
+                userInput = Console.ReadLine();
+            } else {
+                userInput = instructions[0];
+            }
             switch (userInput) {
                 case "F":
                     WriteToConsole(timeTable.GetCompleteTable());

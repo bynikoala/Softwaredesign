@@ -179,8 +179,10 @@ namespace TimeTableGenerator {
                 if (lecturer.optionalCoursesOffered != null) {
                     foreach (OptionalCourse optionalCourse in lecturer.optionalCoursesOffered) {
                         for (int i = 0; i < roomList.Count; i++) {
-                            if (completeTable[optionalCourse.day, optionalCourse.blockNumber, i].cohort != cohort)
-                                sb.Append($"{Block.getDayname(optionalCourse.day)}, {Block.getTime(optionalCourse.blockNumber)}: {optionalCourse.name} in {optionalCourse.roomName} with {lecturer.name}");
+                            if (completeTable[optionalCourse.day, optionalCourse.blockNumber, i].cohort != cohort) {
+                                sb.Append($"{Block.getDayname(optionalCourse.day)}, {Block.getTime(optionalCourse.blockNumber)}: {optionalCourse.name} in {optionalCourse.roomName} with {lecturer.name}\n");
+                                break;
+                            }
                         }
                     }
                 }
