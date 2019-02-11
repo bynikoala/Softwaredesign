@@ -122,7 +122,7 @@ namespace TimeTableGenerator {
             StringBuilder sb = new StringBuilder();
             foreach (Block block in completeTable) {
                 if (block != null && block.lecturer != null)
-                    sb.Append($"{block.major.name}{block.cohort.term} Day {block.day+1}, Block {block.number+1}: {block.courseName} in {block.room.name} with {block.lecturer.name}\n");
+                    sb.Append($"{block.major.name}{block.cohort.term} {Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} in {block.room.name} with {block.lecturer.name}\n");
             }
             return sb.ToString();
         }
@@ -135,7 +135,7 @@ namespace TimeTableGenerator {
             sb.Append($"Timetable for {userInput}:\n");
             foreach (Block block in completeTable) {
                 if (block != null && block.lecturer != null && block.cohort == cohort)
-                    sb.Append($"Day {block.day+1}, Block {block.number+1}: {block.courseName} in {block.room.name} with {block.lecturer.name}\n");
+                    sb.Append($"{Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} in {block.room.name} with {block.lecturer.name}\n");
             }
             return sb.ToString();
         }
@@ -148,7 +148,10 @@ namespace TimeTableGenerator {
             sb.Append($"Timetable for {lecturer.name}:\n");
             foreach (Block block in completeTable) {
                 if (block != null && block.lecturer != null && block.lecturer == lecturer)
-                    sb.Append($"{block.major.name}{block.cohort.term} Day {block.day+1}, Block {block.number+1}: {block.courseName} in {block.room.name}\n");
+                    sb.Append($"{block.major.name}{block.cohort.term} {Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} in {block.room.name}\n");
+            }
+            foreach(OptionalCourse optionalCourse in lecturer.optionalCoursesOffered) {
+                sb.Append($"WPM {Block.getDayname(optionalCourse.day)}, {Block.getTime(optionalCourse.blockNumber)}: {optionalCourse.name} in {optionalCourse.roomName}\n");
             }
             return sb.ToString();
         }
@@ -161,7 +164,7 @@ namespace TimeTableGenerator {
             sb.Append($"Timetable for {room.name}:\n");
             foreach (Block block in completeTable) {
                 if (block != null && block.lecturer != null && block.room == room)
-                    sb.Append($"{block.major.name}{block.cohort.term} Day {block.day+1}, Block {block.number+1}: {block.courseName} with {block.lecturer.name}\n");
+                    sb.Append($"{block.major.name}{block.cohort.term} {Block.getDayname(block.day)}, {Block.getTime(block.number)}: {block.courseName} with {block.lecturer.name}\n");
             }
             return sb.ToString();
         }
@@ -174,15 +177,16 @@ namespace TimeTableGenerator {
             sb.Append($"Optional courses available for {userInput}:\n");
 
             foreach (Lecturer lecturer in lecturerList) {
-                foreach (OptionalCourse optionalCourse in lecturer.optionalCoursesOffered) {
-                    for (int i = 0; i < roomList.Count; i++) {
-                        Block block = completeTable[optionalCourse.day, optionalCourse.blockNumber, i];
-                        if (block.cohort != cohort)
-                            sb.Append($"Day {optionalCourse.day}: {optionalCourse.name} in {optionalCourse.roomName} with {lecturer.name}");
+                if (lecturer.optionalCoursesOffered != null) {
+                    foreach (OptionalCourse optionalCourse in lecturer.optionalCoursesOffered) {
+                        for (int i = 0; i < roomList.Count; i++) {
+                            if (completeTable[optionalCourse.day, optionalCourse.blockNumber, i].cohort != cohort)
+                                sb.Append($"{Block.getDayname(optionalCourse.day)}, {Block.getTime(optionalCourse.blockNumber)}: {optionalCourse.name} in {optionalCourse.roomName} with {lecturer.name}");
+                        }
                     }
                 }
             }
-            if (sb.Length > 40)
+            if (sb.Length < 40)
                 return "No Optional Courses found for your TimeTable";
             return sb.ToString();
         }
